@@ -1,0 +1,189 @@
+/*Password confirmation CSS*/
+#passwords{
+	margin: 5% 20%;
+}
+#password1{
+	margin-left: 50px;
+	margin-bottom: 2%; 
+}
+#password2{
+	margin-left: 5px;
+}
+#passwords button{
+	margin: 20px 0px 0px 180px;
+}
+
+
+/*Slideshow page CSS*/
+.slide{
+	display: none;
+}
+#SlideShow-container{
+	width: 760px;
+	height: 650px;
+}
+
+/*Profile page CSS*/
+#name{
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: #454545;
+	color: #ffffff;
+}
+
+.section{
+	width: 960px;
+	display: flex;
+	background-color: #EAEDED;
+	color: #000000;
+}
+
+#top{
+	width: 80%;
+}
+
+#photo{
+	width: 150px;
+	height: 200px;
+	background-image: url('./images/photo.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: right;
+	margin-left: 5%;
+}
+
+.contacts{
+	margin-top: 3%;
+}
+
+.right{
+	width: 30%;
+	float: right;
+	margin-left: 40%;
+	
+}
+.left{
+	width: 80%;
+}
+
+@media all and (max-width: 1100px){
+	.left{
+		width: 60%;
+	}
+	.right{
+		margin-left: 5%;
+	}
+}
+
+@media all and (max-width: 769px){
+	.title{
+		font-size: 14px;
+	}
+	.section{
+		width: 100%;
+	}
+}
+span{
+	display: block;
+}
+.section>.paragraph.twoCol{
+	width: 100%;
+	border-right: solid;
+}
+.section>.paragraph{
+	width: 100%;
+}
+
+.left-p{
+	
+}
+fieldset{
+	margin: 2% auto;
+}
+legend{
+	text-transform: uppercase;
+	font-size: 24px;
+	font-family: serif;
+	font-weight: bold;
+}
+
+.title{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.large-split .first-date{
+	margin-bottom: 180px;
+}
+.body{
+	background-color: #FDFEFE ;
+}
+
+/*CSS Manipulation*/
+#style-change{
+	display: flex;
+}
+#style-change div{
+	width: 25%;
+}
+
+
+/*index*/
+.index{
+	background-color: blue;
+	width: 80%;
+}
+
+.menu{
+	width: 100%;
+	margin: auto auto 30px auto;
+	background-color: #003459;
+	overflow: hidden;
+	border-radius: 8px;
+}
+
+.menu a{
+	float: left;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 18px;
+	transition: .4s ease-in-out;
+}
+
+.menu a:hover{
+	background-color: #73cbf2;
+}
+
+.menu a:active, a.active{
+	background-color: #2767ff;
+}
+
+.welcome{
+	background: url('./images/Fall-crosswalk.jpg') no-repeat fixed;
+	width: 80%;
+	margin: auto;
+	height: 600px;
+	background-size: 1100px 760px;
+}
+.welcome p{
+	width: 86%;
+	background-color: rgb(133, 137, 138, .5);
+	color: #ffffff;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 10%;
+}
+.welcome h2{
+	background-color: #0051ba;
+	color: #ffffff;
+	text-align: center;
+	font-size: 28px;
+	width: 50%;
+	margin: auto;
+}

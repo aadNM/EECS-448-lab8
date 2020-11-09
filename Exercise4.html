@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Manipulation</title>
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="myStyle.css">
+</head>
+<body>
+		<div class="menu">
+			<a href="index.html">Home</a>
+			<a href="passwordVerify.html">Passwords</a>
+			<a href="slideshow.html">SlideShow</a>
+			<a href="#" class="active">Paragraph</a>
+			<a href="personProfile.html">Profile</a>
+		</div>
+	<p id="container-to-change">
+The Document Object Model, or DOM, that defines the structure of an HTML document has inside of it a style object. <br>To access the style object, you simple need to access the tag, via its id, like in previous exercises. You can then access the style object of that tag.</p>
+	
+	<p>User numbers to specify the RGB values for the colors you want.</p>
+	<div id="style-change">
+		<div>
+			<h4>Background</h4>
+			<label for="red">Red</label>
+			<input type="text" name="red" id="red-bg"><br>
+			<label for="green">Green</label>
+			<input type="text" name="green" id="green-bg"><br>
+			<label for="blue">Blue</label>
+			<input type="text" name="blue" id="blue-bg"><br>
+			<label for="opacity">Opacity (%)</label>
+			<input type="text" name="opacity" id="opacity-bg">
+		</div>
+		<div>
+			<h4>Border</h4>
+			<label for="red">Red</label>
+			<input type="text" name="red" id="red-b"><br>
+			<label for="green">Green</label>
+			<input type="text" name="green" id="green-b"><br>
+			<label for="blue">Blue</label>
+			<input type="text" name="blue" id="blue-b"><br>
+			<label for="width">Width</label>
+			<input type="text" name="width" id="width-b">
+		</div>
+	</div>
+	<p><button type="button" onClick="styleUpdate()">Submit</button></p>
+	
+
+
+</body>
+</html>
